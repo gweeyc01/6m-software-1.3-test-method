@@ -19,7 +19,7 @@ switch (env) {
     databaseCredential = 'stageuser:password';
     break;
   case 'PROD':
-    databaseCredential = 'producer:password';
+    databaseCredential = 'produser:password';
 }
 
 console.log(
